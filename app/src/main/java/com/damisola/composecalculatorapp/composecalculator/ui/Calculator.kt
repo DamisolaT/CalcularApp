@@ -23,10 +23,11 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.damisola.composecalculatorapp.ui.theme.Green
 import com.damisola.composecalculatorapp.ui.theme.LightGray
 import com.damisola.composecalculatorapp.ui.theme.Orange
 
-import com.damisola.composecalculatorapp.ui.theme.Yellow
+
 
 
 @OptIn(ExperimentalComposeUiApi::class)
@@ -63,7 +64,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "AC",
                     modifier = Modifier
-                        .background(LightGray)
+                        .background(Green)
                         .aspectRatio(2f)
                         .weight(2f),
                     onClick = {
@@ -74,7 +75,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "Del",
                     modifier = Modifier
-                        .background(LightGray)
+                        .background(Green)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -85,7 +86,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "/",
                     modifier = Modifier
-                        .background(Yellow)
+                        .background(Green)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -135,7 +136,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "x",
                     modifier = Modifier
-                        .background(Yellow)
+                        .background(Green)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -186,7 +187,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "-",
                     modifier = Modifier
-                        .background(Yellow)
+                        .background(Green)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -236,7 +237,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "+",
                     modifier = Modifier
-                        .background(Yellow)
+                        .background(Green)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
@@ -274,7 +275,7 @@ fun Calculator(
                 CalculatorButton(
                     symbol = "=",
                     modifier = Modifier
-                        .background(Yellow)
+                        .background(Green)
                         .aspectRatio(1f)
                         .weight(1f),
                     onClick = {
